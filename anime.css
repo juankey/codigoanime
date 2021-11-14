@@ -1,0 +1,59 @@
+.wrapper{ 
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(6,auto);
+}
+.title, .signosis,.capitulos{
+    width: 95%;
+    margin: auto;
+}
+.title{
+    color: #ffe;
+    background-color: var(--light-color);
+}
+.signosis{grid-row: 5/6;}
+.signosis > p{
+    background-color: var(--light-color);
+    
+}
+.video{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.video > iframe{
+    position:sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+   min-height: 13rem;
+}
+.container-episode{    
+     grid-row: 4/5;
+     position: sticky;
+     top: 13rem;
+}
+.container-episode > summary{
+    border: 1px solid #fff;
+    background-color: var(--light-color);
+    color: #fff;
+    height: 3rem;   
+    display: flex;
+    justify-content: center;
+    align-items:center;
+ 
+}
+.episode-box{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+   
+}
+.capitulo{    
+    margin-top: .1rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+}
