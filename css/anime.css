@@ -1,8 +1,9 @@
 .wrapper{
+    font-family: 'Roboto', sans-serif;
     color: var(--color-text);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat (5,1fr);
+    grid-template-rows: repeat (4,1fr);
 }
 .title{
     background-color: var(--light-color);
@@ -20,13 +21,10 @@
 }
 .container-video{
     grid-row: span 3;
-    position: sticky;
-    top: 0;
-    left: 0;
+
     background: var(--light-color); 
     text-transform: capitalize;   
 }
-
 .title__video{
     display: flex;
     justify-content: center;
@@ -35,8 +33,7 @@
     margin: auto;
     width: 93%;
    border: thin solid var(--color-text);
-   padding-left: 1rem;
-   
+   padding-left: 1rem;   
    height: 2.5rem;
    display: flex;
    align-items: center; 
