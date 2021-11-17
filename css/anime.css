@@ -7,10 +7,10 @@
 }
 .title{
     background-color: var(--light-color);
-    padding: 1rem;
+    padding-left: 2.5rem;
+    padding-top: 1rem;
     grid-row: span 1;
-    display: flex;
-    justify-content: center;
+    display: flex;    
 }
 .subtitle{
 
@@ -21,7 +21,9 @@
 }
 .container-video{
     grid-row: span 3;
-
+    position: sticky;
+    top: 0;
+    left: 0;
     background: var(--light-color); 
     text-transform: capitalize;   
 }
@@ -41,6 +43,9 @@
 .text-episode{
     background-color: var(--black-color);
     justify-content: center;
+    box-shadow: 1px 1px 2px #fff;
+    font-weight: 5rem;
+    
 }
 .signosis{
     grid-row: span 4;
